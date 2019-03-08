@@ -1,9 +1,9 @@
 {
   "scripts": {
-    "demo": "ts-node hello.ts"
+    "prettier-check": "prettier -c *.ts",
+    "prettier-fix": "prettier --write *.ts"
   },
   "devDependencies": {
-    "ts-node": "7.0.1",
-    "typescript": "3.2.2"
+    "prettier": "1.16.3"
   }
 }
