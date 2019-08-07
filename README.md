@@ -1,9 +1,8 @@
-TypeScript Run Prettier Before Commit Demo
-==========================================
+# TypeScript Run Prettier Before Commit Demo
 
-可以使用 git-commit 这个npm包，在`package.json`中的`pre-commit`处设置命令，它将在运行git commit时，自动执行。
+使用<https://prettier.io/>推荐的 husky 来在 package.json 中设置`pre-commit`命令。
 
-我们可以利用该功能自动运行prettier修正代码样式。
+我们可以利用该功能自动运行 prettier 修正代码样式。
 
 ```
 npm install
